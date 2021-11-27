@@ -156,6 +156,9 @@ h3 {
     'four'
     'five';
 
+  /* doing this will cause all auto generated columns to have the same width - do this when you have columns auto generated based on your grid template areas and not columns defined by you */
+  grid-auto-columns: 1fr;
+
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
